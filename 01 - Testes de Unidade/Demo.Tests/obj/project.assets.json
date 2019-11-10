@@ -1675,6 +1675,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Demo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Demo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo.dll": {}
+        }
       }
     }
   },
@@ -5842,10 +5852,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Demo/1.0.0": {
+      "type": "project",
+      "path": "../Demo/Demo.csproj",
+      "msbuildProject": "../Demo/Demo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Demo >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
@@ -5881,7 +5897,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\_git\\TestesDeUnidade_EP\\01 - Testes de Unidade\\Demo\\Demo.csproj": {
+              "projectPath": "C:\\_git\\TestesDeUnidade_EP\\01 - Testes de Unidade\\Demo\\Demo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

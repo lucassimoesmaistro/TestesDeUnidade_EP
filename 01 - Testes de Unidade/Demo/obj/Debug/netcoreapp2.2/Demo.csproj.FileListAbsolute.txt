@@ -1,0 +1,9 @@
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\bin\Debug\netcoreapp2.2\Demo.deps.json
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\bin\Debug\netcoreapp2.2\Demo.dll
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\bin\Debug\netcoreapp2.2\Demo.pdb
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.csprojAssemblyReference.cache
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.csproj.CoreCompileInputs.cache
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfoInputs.cache
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfo.cs
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.dll
+C:\_git\TestesDeUnidade_EP\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.pdb
