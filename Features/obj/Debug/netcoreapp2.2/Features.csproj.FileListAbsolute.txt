@@ -6,3 +6,4 @@ C:\_git\TestesDeUnidade_EP\Features\bin\Debug\netcoreapp2.2\Features.dll
 C:\_git\TestesDeUnidade_EP\Features\bin\Debug\netcoreapp2.2\Features.pdb
 C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.dll
 C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.pdb
+C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.csprojAssemblyReference.cache
