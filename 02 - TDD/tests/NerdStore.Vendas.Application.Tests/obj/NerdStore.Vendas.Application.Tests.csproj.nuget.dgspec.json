@@ -241,6 +241,14 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Moq.AutoMock": {
+              "target": "Package",
+              "version": "[1.2.0.120, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.0, )"
