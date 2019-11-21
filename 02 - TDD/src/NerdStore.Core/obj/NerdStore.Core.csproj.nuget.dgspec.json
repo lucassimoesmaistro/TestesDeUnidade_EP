@@ -41,6 +41,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

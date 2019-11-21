@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "a5a5d42c43e1cb429841cf89fae7fc4c23ac8cc9"
+    "signature": "c17b193870e1b7217059c8805a04c0a6f3aac199"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,11 +9,32 @@
       "NerdStore.Vendas.Application.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.0.1",
+          "NerdStore.Vendas.Application": "1.0.0",
+          "NerdStore.Vendas.Domain": "1.0.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
           "NerdStore.Vendas.Application.Tests.dll": {}
+        }
+      },
+      "FluentValidation/8.5.1": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.5.1.0"
+          }
+        }
+      },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/16.0.1": {
@@ -463,6 +484,7 @@
           "System.Runtime": "4.1.0"
         }
       },
+      "System.ComponentModel.Annotations/4.4.1": {},
       "System.ComponentModel.EventBasedAsync/4.0.11": {
         "dependencies": {
           "System.Resources.ResourceManager": "4.0.1",
@@ -1056,6 +1078,34 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.0.1"
         }
+      },
+      "NerdStore.Core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "8.5.1",
+          "MediatR": "7.0.0"
+        },
+        "runtime": {
+          "NerdStore.Core.dll": {}
+        }
+      },
+      "NerdStore.Vendas.Application/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "8.5.1",
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Vendas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Vendas.Application.dll": {}
+        }
+      },
+      "NerdStore.Vendas.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "8.5.1",
+          "NerdStore.Core": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Vendas.Domain.dll": {}
+        }
       }
     }
   },
@@ -1064,6 +1114,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/8.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GoygZcMkCcve3UHZM3ITSzgrPdfjPSl5mRSQKL6BlV8aI0yi+shIAju7k6QirPESNGsKzn+r4ne0JmqsAGG/PA==",
+      "path": "fluentvalidation/8.5.1",
+      "hashPath": "fluentvalidation.8.5.1.nupkg.sha512"
+    },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.0.1": {
       "type": "package",
@@ -1190,6 +1254,13 @@
       "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
       "path": "system.componentmodel/4.0.1",
       "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
     },
     "System.ComponentModel.EventBasedAsync/4.0.11": {
       "type": "package",
@@ -1596,6 +1667,21 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+    },
+    "NerdStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Vendas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Vendas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

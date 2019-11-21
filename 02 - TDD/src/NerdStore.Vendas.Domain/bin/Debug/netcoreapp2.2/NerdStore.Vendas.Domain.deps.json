@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "d2f33bb1070307073798687acf6450cd08ea2a69"
+    "signature": "88ec10a02ddad56706baf30e2bbe485ad1ade841"
   },
   "compilationOptions": {},
   "targets": {
@@ -26,8 +26,20 @@
           }
         }
       },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
       "System.ComponentModel.Annotations/4.4.1": {},
       "NerdStore.Core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "8.5.1",
+          "MediatR": "7.0.0"
+        },
         "runtime": {
           "NerdStore.Core.dll": {}
         }
@@ -46,6 +58,13 @@
       "sha512": "sha512-GoygZcMkCcve3UHZM3ITSzgrPdfjPSl5mRSQKL6BlV8aI0yi+shIAju7k6QirPESNGsKzn+r4ne0JmqsAGG/PA==",
       "path": "fluentvalidation/8.5.1",
       "hashPath": "fluentvalidation.8.5.1.nupkg.sha512"
+    },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.4.1": {
       "type": "package",

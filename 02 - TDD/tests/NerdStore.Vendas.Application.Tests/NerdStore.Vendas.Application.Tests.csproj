@@ -12,4 +12,9 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\NerdStore.Vendas.Application\NerdStore.Vendas.Application.csproj" />
+    <ProjectReference Include="..\..\src\NerdStore.Vendas.Domain\NerdStore.Vendas.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

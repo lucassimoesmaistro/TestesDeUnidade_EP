@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NerdStore.Vendas.Domain.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NerdStore.Vendas.Domain", "02 - TDD\src\NerdStore.Vendas.Domain\NerdStore.Vendas.Domain.csproj", "{66022EDE-A164-4727-B131-06F7E4345E12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Core", "02 - TDD\src\NerdStore.Core\NerdStore.Core.csproj", "{C468C501-E30D-4F36-91B4-FE047A20C434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NerdStore.Core", "02 - TDD\src\NerdStore.Core\NerdStore.Core.csproj", "{C468C501-E30D-4F36-91B4-FE047A20C434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdStore.Vendas.Application", "02 - TDD\src\NerdStore.Vendas.Application\NerdStore.Vendas.Application.csproj", "{9D962C63-54F2-4BDD-A8EA-C86B4121E04E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{C468C501-E30D-4F36-91B4-FE047A20C434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C468C501-E30D-4F36-91B4-FE047A20C434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C468C501-E30D-4F36-91B4-FE047A20C434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D962C63-54F2-4BDD-A8EA-C86B4121E04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D962C63-54F2-4BDD-A8EA-C86B4121E04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D962C63-54F2-4BDD-A8EA-C86B4121E04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D962C63-54F2-4BDD-A8EA-C86B4121E04E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{0E8FBC2B-47B7-473A-A072-D4ED24C35006} = {E06B568C-2EFB-4E5D-9736-378A8DDA55E0}
 		{66022EDE-A164-4727-B131-06F7E4345E12} = {BD6E8803-5C0B-46D0-8824-BF445F8E5895}
 		{C468C501-E30D-4F36-91B4-FE047A20C434} = {BD6E8803-5C0B-46D0-8824-BF445F8E5895}
+		{9D962C63-54F2-4BDD-A8EA-C86B4121E04E} = {BD6E8803-5C0B-46D0-8824-BF445F8E5895}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CADF2008-653C-4090-9094-860E51199FEB}

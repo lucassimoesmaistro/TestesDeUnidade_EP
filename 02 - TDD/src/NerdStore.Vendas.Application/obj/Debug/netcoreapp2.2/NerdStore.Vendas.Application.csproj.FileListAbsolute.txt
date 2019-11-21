@@ -1,0 +1,14 @@
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Application.deps.json
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Application.dll
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Application.pdb
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Core.dll
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Core.pdb
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.csprojAssemblyReference.cache
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.csproj.CoreCompileInputs.cache
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.AssemblyInfoInputs.cache
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.AssemblyInfo.cs
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.csproj.CopyComplete
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.dll
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Application\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Application.pdb
