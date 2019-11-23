@@ -966,6 +966,20 @@
         "runtime": {
           "bin/placeholder/NerdStore.Core.dll": {}
         }
+      },
+      "NerdStore.Vendas.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "FluentValidation": "8.5.1",
+          "NerdStore.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Vendas.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Vendas.Domain.dll": {}
+        }
       }
     }
   },
@@ -3639,6 +3653,11 @@
       "type": "project",
       "path": "../NerdStore.Core/NerdStore.Core.csproj",
       "msbuildProject": "../NerdStore.Core/NerdStore.Core.csproj"
+    },
+    "NerdStore.Vendas.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj",
+      "msbuildProject": "../NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3647,7 +3666,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 2.2.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.6",
       "Microsoft.NETCore.App >= 2.2.0",
-      "NerdStore.Core >= 1.0.0"
+      "NerdStore.Core >= 1.0.0",
+      "NerdStore.Vendas.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3682,6 +3702,9 @@
           "projectReferences": {
             "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
               "projectPath": "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+            },
+            "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+              "projectPath": "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
             }
           }
         }

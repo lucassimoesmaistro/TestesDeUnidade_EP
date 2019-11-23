@@ -6,4 +6,3 @@ C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\N
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.AssemblyInfo.cs
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.dll
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.pdb
-C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.csprojAssemblyReference.cache

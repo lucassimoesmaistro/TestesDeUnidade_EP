@@ -1,8 +1,5 @@
-﻿using MediatR;
+﻿using System;
 using NerdStore.Core.Messages;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace NerdStore.Vendas.Application.Events
 {
@@ -25,6 +22,5 @@ namespace NerdStore.Vendas.Application.Events
             ValorUnitario = valorUnitario;
             Quantidade = quantidade;
         }
-
     }
 }

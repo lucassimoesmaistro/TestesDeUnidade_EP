@@ -12,3 +12,5 @@ C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Data\bin\Debug\netcorea
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Data.csproj.CopyComplete
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Data.dll
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Data\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Data.pdb
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Data\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
