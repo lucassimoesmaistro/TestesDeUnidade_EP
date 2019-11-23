@@ -11,6 +11,18 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=" +
+    "null", "C:\\_git\\TestesDeUnidade_EP\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Appli" +
+    "cation", "NerdStore.Catalogo.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Data", "NerdStore.Catalogo.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Domai" +
+    "n", "NerdStore.Catalogo.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Core", "NerdStore.Core.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
+    "ll", "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Vendas.Application", "NerdStore.Vendas.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Vendas.Data", "NerdStore.Vendas.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\02 - TDD\\src\\NerdStore.Vendas.Domain", "NerdStore.Vendas.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.WebApp.MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\03 - Testes de Integracao\\src\\NerdStore.WebApp.MVC", "NerdStore.WebApp.MVC.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NerdStore.WebApp.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

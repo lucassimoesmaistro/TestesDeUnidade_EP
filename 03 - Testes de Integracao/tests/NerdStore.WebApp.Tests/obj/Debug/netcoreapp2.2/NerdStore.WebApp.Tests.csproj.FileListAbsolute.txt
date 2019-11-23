@@ -11,3 +11,4 @@ C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Test
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\obj\Debug\netcoreapp2.2\NerdStore.WebApp.Tests.AssemblyInfo.cs
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\obj\Debug\netcoreapp2.2\NerdStore.WebApp.Tests.dll
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\obj\Debug\netcoreapp2.2\NerdStore.WebApp.Tests.pdb
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\obj\Debug\netcoreapp2.2\NerdStore.WebApp.Tests.csprojAssemblyReference.cache
