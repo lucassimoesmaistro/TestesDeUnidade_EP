@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "5df111bc0a1129d05f3a803f4b43c17f180ddb3f"
+    "signature": "e31044ab782376367504f2ca9262fd5b428b2c93"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "NerdStore.WebApp.Tests/1.0.0": {
         "dependencies": {
+          "Bogus": "28.3.1",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Testing": "2.2.0",
           "Microsoft.NET.Test.Sdk": "16.0.1",
@@ -67,6 +68,17 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "Bogus/28.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "28.3.1.0",
+            "fileVersion": "28.3.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
         }
       },
       "FluentValidation/8.5.1": {
@@ -1243,9 +1255,9 @@
       },
       "NerdStore.Catalogo.Application/1.0.0": {
         "dependencies": {
-          "AutoMapper": "8.1.1",
           "NerdStore.Catalogo.Data": "1.0.0",
-          "NerdStore.Catalogo.Domain": "1.0.0"
+          "NerdStore.Catalogo.Domain": "1.0.0",
+          "AutoMapper": "8.1.1"
         },
         "runtime": {
           "NerdStore.Catalogo.Application.dll": {}
@@ -4434,6 +4446,13 @@
       "sha512": "sha512-MPMgL6JGEH2Egmgh3+tw2UVX05ph8As7YtYWzt2ZDCc0STHGG5EsV3UMWH/g4aHaN1q20Bbc0PTMy3I0PwgBGQ==",
       "path": "automapper.extensions.microsoft.dependencyinjection/6.1.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512"
+    },
+    "Bogus/28.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OHWyzNtukMUNKlsl+zQxZ+AfDKq7cAevN0WGeIHjod1fXeuz6cRuglXOVdxZwir+Ryb4UFrEcfKxNvDmIOk2bQ==",
+      "path": "bogus/28.3.1",
+      "hashPath": "bogus.28.3.1.nupkg.sha512"
     },
     "FluentValidation/8.5.1": {
       "type": "package",

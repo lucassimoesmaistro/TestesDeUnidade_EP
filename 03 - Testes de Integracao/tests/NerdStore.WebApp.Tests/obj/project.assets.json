@@ -28,6 +28,15 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Bogus/28.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "FluentValidation/8.5.1": {
         "type": "package",
         "dependencies": {
@@ -5452,9 +5461,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "AutoMapper": "8.1.1",
           "NerdStore.Catalogo.Data": "1.0.0",
-          "NerdStore.Catalogo.Domain": "1.0.0"
+          "NerdStore.Catalogo.Domain": "1.0.0",
+          "automapper": "8.1.1"
         },
         "compile": {
           "bin/placeholder/NerdStore.Catalogo.Application.dll": {}
@@ -5469,7 +5478,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Design": "2.2.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
+          "Microsoft.EntityFrameworkCore.sqlserver": "2.2.6",
           "NerdStore.Catalogo.Domain": "1.0.0"
         },
         "compile": {
@@ -5606,6 +5615,26 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
+    "Bogus/28.3.1": {
+      "sha512": "OHWyzNtukMUNKlsl+zQxZ+AfDKq7cAevN0WGeIHjod1fXeuz6cRuglXOVdxZwir+Ryb4UFrEcfKxNvDmIOk2bQ==",
+      "type": "package",
+      "path": "bogus/28.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.28.3.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.pdb",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.pdb",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.pdb",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "FluentValidation/8.5.1": {
@@ -14943,6 +14972,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Bogus >= 28.3.1",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
@@ -14997,6 +15027,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[28.3.1, )"
+          },
           "Microsoft.AspNetCore.App": {
             "target": "Package",
             "version": "[2.2.0, )"

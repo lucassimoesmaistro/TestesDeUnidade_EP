@@ -588,6 +588,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[28.3.1, )"
+            },
             "Microsoft.AspNetCore.App": {
               "target": "Package",
               "version": "[2.2.0, )"
