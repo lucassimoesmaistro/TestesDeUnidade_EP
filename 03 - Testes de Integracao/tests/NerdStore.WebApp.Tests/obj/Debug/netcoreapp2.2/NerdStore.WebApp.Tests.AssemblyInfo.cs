@@ -11,6 +11,8 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Features, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\Features", "Features.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Features.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\_git\\TestesDeUnidade_EP\\Features.Tests", "Features.Tests.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=" +
     "null", "C:\\_git\\TestesDeUnidade_EP\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Appli" +
     "cation", "NerdStore.Catalogo.Application.csproj", "0")]

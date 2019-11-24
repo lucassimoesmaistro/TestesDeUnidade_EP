@@ -31,3 +31,7 @@ C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Test
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.pdb
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\obj\Debug\netcoreapp2.2\NerdStore.WebApp.Tests.csproj.CopyComplete
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\bin\Debug\netcoreapp2.2\Features.dll
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\bin\Debug\netcoreapp2.2\Features.Tests.dll
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\bin\Debug\netcoreapp2.2\Features.Tests.pdb
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\bin\Debug\netcoreapp2.2\Features.pdb
