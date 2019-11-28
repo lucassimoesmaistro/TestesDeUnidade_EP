@@ -1,12 +1,12 @@
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.deps.json
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Core.dll
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Core.pdb
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.csprojAssemblyReference.cache
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.csproj.CoreCompileInputs.cache
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.AssemblyInfoInputs.cache
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.AssemblyInfo.cs
+C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.csproj.CopyComplete
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
 C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
-C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.csprojAssemblyReference.cache
-C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Core.dll
-C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp2.2\NerdStore.Core.pdb
-C:\_git\TestesDeUnidade_EP\02 - TDD\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.csproj.CopyComplete

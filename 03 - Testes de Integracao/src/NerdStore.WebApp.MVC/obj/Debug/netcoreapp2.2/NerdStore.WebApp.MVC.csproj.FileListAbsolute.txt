@@ -1,9 +1,3 @@
-C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.csprojAssemblyReference.cache
-C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.csproj.CoreCompileInputs.cache
-C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.RazorAssemblyInfo.cache
-C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.RazorAssemblyInfo.cs
-C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.AssemblyInfoInputs.cache
-C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.AssemblyInfo.cs
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.deps.json
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.runtimeconfig.json
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.runtimeconfig.dev.json
@@ -25,6 +19,12 @@ C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bi
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.pdb
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Domain.pdb
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.csprojAssemblyReference.cache
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.csproj.CoreCompileInputs.cache
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.RazorAssemblyInfo.cache
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.RazorAssemblyInfo.cs
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.AssemblyInfoInputs.cache
+C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.AssemblyInfo.cs
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.TagHelpers.input.cache
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.TagHelpers.output.cache
 C:\_git\TestesDeUnidade_EP\03 - Testes de Integracao\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.RazorCoreGenerate.cache

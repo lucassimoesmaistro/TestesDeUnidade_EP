@@ -1,9 +1,9 @@
-C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.csproj.CoreCompileInputs.cache
-C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.AssemblyInfoInputs.cache
-C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.AssemblyInfo.cs
 C:\_git\TestesDeUnidade_EP\Features\bin\Debug\netcoreapp2.2\Features.deps.json
 C:\_git\TestesDeUnidade_EP\Features\bin\Debug\netcoreapp2.2\Features.dll
 C:\_git\TestesDeUnidade_EP\Features\bin\Debug\netcoreapp2.2\Features.pdb
+C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.csprojAssemblyReference.cache
+C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.csproj.CoreCompileInputs.cache
+C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.AssemblyInfoInputs.cache
+C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.AssemblyInfo.cs
 C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.dll
 C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.pdb
-C:\_git\TestesDeUnidade_EP\Features\obj\Debug\netcoreapp2.2\Features.csprojAssemblyReference.cache
