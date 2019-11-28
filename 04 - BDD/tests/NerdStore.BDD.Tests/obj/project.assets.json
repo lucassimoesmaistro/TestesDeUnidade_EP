@@ -683,6 +683,23 @@
           "buildMultiTargeting/SpecFlow.Tools.MsBuild.Generation.props": {}
         }
       },
+      "SpecFlow.xUnit/3.0.225": {
+        "type": "package",
+        "dependencies": {
+          "SpecFlow": "[3.0.225]",
+          "xunit.core": "2.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll": {}
+        },
+        "build": {
+          "build/SpecFlow.xUnit.props": {},
+          "build/SpecFlow.xUnit.targets": {}
+        }
+      },
       "System.AppContext/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2920,6 +2937,28 @@
         "tasks/netcoreapp2.0/TechTalk.SpecFlow.Utils.dll",
         "tasks/netcoreapp2.0/TechTalk.SpecFlow.dll",
         "tasks/netcoreapp2.0/Utf8Json.dll"
+      ]
+    },
+    "SpecFlow.xUnit/3.0.225": {
+      "sha512": "R10C7QXmgpH9/WnpVqdk+HilyFS/+I8I+SeNlnIiAoZ0PBed9PWb/JAIe1FGyWep7on7aflobur9WOjuey148w==",
+      "type": "package",
+      "path": "specflow.xunit/3.0.225",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/SpecFlow.xUnit.props",
+        "build/SpecFlow.xUnit.targets",
+        "build/net471/TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin.dll",
+        "build/net471/TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin.pdb",
+        "build/netstandard2.0/TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin.dll",
+        "build/netstandard2.0/TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin.pdb",
+        "lib/net45/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll",
+        "lib/net45/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.pdb",
+        "lib/netstandard2.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll",
+        "lib/netstandard2.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.pdb",
+        "specflow.xunit.3.0.225.nupkg.sha512",
+        "specflow.xunit.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -6422,6 +6461,7 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "SpecFlow >= 3.0.225",
       "SpecFlow.Tools.MsBuild.Generation >= 3.0.225",
+      "SpecFlow.xUnit >= 3.0.225",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -6482,6 +6522,10 @@
             "version": "[3.0.225, )"
           },
           "SpecFlow.Tools.MsBuild.Generation": {
+            "target": "Package",
+            "version": "[3.0.225, )"
+          },
+          "SpecFlow.xUnit": {
             "target": "Package",
             "version": "[3.0.225, )"
           },

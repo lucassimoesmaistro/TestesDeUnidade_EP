@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[3.0.225, )"
             },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.0.225, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.0, )"

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "c0f8a62553708683ef9cd8c41f6940cf22d65f5c"
+    "signature": "4b65933403930a6abf80031607b788293fbeeafe"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,8 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.0.1",
           "SpecFlow": "3.0.225",
+          "SpecFlow.Tools.MsBuild.Generation": "3.0.225",
+          "SpecFlow.xUnit": "3.0.225",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -431,6 +433,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/TechTalk.SpecFlow.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.225.33352"
+          }
+        }
+      },
+      "SpecFlow.Tools.MsBuild.Generation/3.0.225": {
+        "dependencies": {
+          "SpecFlow": "3.0.225"
+        }
+      },
+      "SpecFlow.xUnit/3.0.225": {
+        "dependencies": {
+          "SpecFlow": "3.0.225",
+          "xunit.core": "2.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.225.33352"
           }
@@ -1268,6 +1287,20 @@
       "sha512": "sha512-6amGiq0oMRYRvU7kn+zqJX421Ji/4a2qjWukydbWE3lUHlRU3GPTtFutVeU6tJYg9fonPXpYql6BgKmE1KASTA==",
       "path": "specflow/3.0.225",
       "hashPath": "specflow.3.0.225.nupkg.sha512"
+    },
+    "SpecFlow.Tools.MsBuild.Generation/3.0.225": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drMBK7iFdjeLr2bCF/xc2klpZ1wi/5yEwnzC8kBH9CdsUuWvh8BjyQfFxx/zbw9iMhxMYA8b2T09NU/p4wG0Fg==",
+      "path": "specflow.tools.msbuild.generation/3.0.225",
+      "hashPath": "specflow.tools.msbuild.generation.3.0.225.nupkg.sha512"
+    },
+    "SpecFlow.xUnit/3.0.225": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R10C7QXmgpH9/WnpVqdk+HilyFS/+I8I+SeNlnIiAoZ0PBed9PWb/JAIe1FGyWep7on7aflobur9WOjuey148w==",
+      "path": "specflow.xunit/3.0.225",
+      "hashPath": "specflow.xunit.3.0.225.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
