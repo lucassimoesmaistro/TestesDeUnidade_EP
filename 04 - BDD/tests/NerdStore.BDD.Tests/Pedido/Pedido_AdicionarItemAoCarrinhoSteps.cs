@@ -1,15 +1,35 @@
-﻿using System;
+﻿using NerdStore.BDD.Tests.Config;
 using TechTalk.SpecFlow;
+using Xunit;
 
 namespace NerdStore.BDD.Tests.Pedido
 {
     [Binding]
+    [CollectionDefinition(nameof(AutomacaoWebFixtureCollection))]
     public class Pedido_AdicionarItemAoCarrinhoSteps
     {
+        private readonly AutomacaoWebTestsFixture _testsFixture;
+        //private readonly PedidoTela _pedidoTela;
+        //private readonly LoginUsuarioTela _loginUsuarioTela;
+
+
+        private string _urlProduto;
+
+        public Pedido_AdicionarItemAoCarrinhoSteps(AutomacaoWebTestsFixture testsFixture)
+        {
+            _testsFixture = testsFixture;
+            //_pedidoTela = new PedidoTela(testsFixture.BrowserHelper);
+            //_loginUsuarioTela = new LoginUsuarioTela(testsFixture.BrowserHelper);
+        }
+
         [Given(@"Que um produto esteja na vitrine")]
         public void DadoQueUmProdutoEstejaNaVitrine()
         {
             // Arrange
+            var browser = new SeleniumHelper(Browser.Chrome, new ConfigurationHelper(), false);
+            browser.IrParaUrl("https://desenvolvedor.io");
+            browser.ClicarLinkPorTexto("Entrar");
+            browser.PreencherTextBoxPorId("Email", "teste@teste.com.br");
 
             // Act 
 
