@@ -14,6 +14,15 @@
           "build/_._": {}
         }
       },
+      "Bogus/28.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
         "dependencies": {
@@ -2011,6 +2020,26 @@
         "lib/netstandard2.0/BoDi.dll",
         "lib/netstandard2.0/BoDi.pdb",
         "tools/_._"
+      ]
+    },
+    "Bogus/28.3.2": {
+      "sha512": "sWQnUX1bFZZoKoRWlNVVJ8Q9YSJxWxBbLXQGEJa0OvJxEaFcEqijYim4C8NaKrluAVAF440desBKlFsjb3V1qw==",
+      "type": "package",
+      "path": "bogus/28.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.28.3.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.pdb",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.pdb",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.pdb",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
@@ -6807,6 +6836,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Bogus >= 28.3.2",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Microsoft.Extensions.Configuration.Json >= 3.0.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
@@ -6861,6 +6891,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[28.3.2, )"
+          },
           "DotNetSeleniumExtras.WaitHelpers": {
             "target": "Package",
             "version": "[3.11.0, )"

@@ -1,13 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "f229ddead01dfa7b40fef60bd64bc4471e55dc84"
+    "signature": "3c1fdb25d8255a720c48649a687ff6929b2a038f"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "NerdStore.BDD.Tests/1.0.0": {
         "dependencies": {
+          "Bogus": "28.3.2",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
           "Microsoft.Extensions.Configuration.Json": "3.0.0",
           "Microsoft.NET.Test.Sdk": "16.0.1",
@@ -28,6 +29,14 @@
           "lib/netstandard2.0/BoDi.dll": {
             "assemblyVersion": "1.4.1.0",
             "fileVersion": "1.4.1.0"
+          }
+        }
+      },
+      "Bogus/28.3.2": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "28.3.2.0",
+            "fileVersion": "28.3.2.0"
           }
         }
       },
@@ -1327,6 +1336,13 @@
       "sha512": "sha512-x1D7r5VDm7zog+3DlyOo1fXas1RhYmw9e/wIemdjcTeHV4fp4OoGb0Jz4i2E9RShPoOItUfFklm3nxTLcLLwSg==",
       "path": "bodi/1.4.1",
       "hashPath": "bodi.1.4.1.nupkg.sha512"
+    },
+    "Bogus/28.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sWQnUX1bFZZoKoRWlNVVJ8Q9YSJxWxBbLXQGEJa0OvJxEaFcEqijYim4C8NaKrluAVAF440desBKlFsjb3V1qw==",
+      "path": "bogus/28.3.2",
+      "hashPath": "bogus.28.3.2.nupkg.sha512"
     },
     "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
       "type": "package",
