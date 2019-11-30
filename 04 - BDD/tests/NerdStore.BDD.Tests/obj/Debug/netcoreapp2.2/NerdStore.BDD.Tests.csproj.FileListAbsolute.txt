@@ -14,3 +14,8 @@ C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\obj\Debug\netcorea
 C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\obj\Debug\netcoreapp2.2\NerdStore.BDD.Tests.dll
 C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\obj\Debug\netcoreapp2.2\NerdStore.BDD.Tests.pdb
 C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\bin\Debug\netcoreapp2.2\appsettings.json
+C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\bin\Debug\netcoreapp2.2\NerdStore.Core.dll
+C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
+C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
+C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\bin\Debug\netcoreapp2.2\NerdStore.Core.pdb
+C:\_git\TestesDeUnidade_EP\04 - BDD\tests\NerdStore.BDD.Tests\obj\Debug\netcoreapp2.2\NerdStore.BDD.Tests.csproj.CopyComplete

@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\02 - TDD\src\NerdStore.Vendas.Domain\NerdStore.Vendas.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Pedido\AdicionarItem.feature.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
